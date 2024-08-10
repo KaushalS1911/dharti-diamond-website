@@ -8,11 +8,9 @@ import HeroSection from "./global/HeroSection";
 function Concierge() {
   return (
     <div>
-        <Header/>
         <HeroSection/>
       <ConciergeSection1/>
       <ConciergeSection2/>
-      <Footer/>
     </div>
   )
 }

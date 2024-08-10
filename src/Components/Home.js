@@ -11,15 +11,13 @@ import AboutSection9 from '../Pages/About/AboutSection9'
 function Home() {
   return (
     <div>
-        <Header/>
         <HeroSection/>
       <Manufature/>
       <Exploration/>
      <AboutSection9/>
       <Letest/>
       <Round_diamond/>
-      <Footer/>
-     
+
     </div>
   )
 }

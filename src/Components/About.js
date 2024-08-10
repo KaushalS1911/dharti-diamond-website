@@ -14,7 +14,6 @@ import Footer from "./global/Footer";
 function About() {
   return (
     <div>
-        <Header/>
         <HeroSection/>
       <AboutSection2 />
       <AboutSection3 />
@@ -24,7 +23,6 @@ function About() {
       <AboutSection7 />
       <AboutSection8 />
       <AboutSection9 />
-      <Footer/>
     </div>
   )
 }

@@ -24,7 +24,7 @@ function Footer() {
   const navigate = useNavigate();
   return (
     <div>
-      <Box sx={{ backgroundColor: "#1e2229", paddingTop: "80px", paddingBottom: "10px" }}>
+      <Box sx={{ backgroundColor: "#1e2229", paddingTop: {md:"80px",xs:"10px"}, paddingBottom: "10px" }}>
         <Container>
           <Grid container spacing={8} sx={{ py: "60px", display: "flex", justifyContent: "center" }}>
             <Grid item lg={3} md={4} sm={6} xs={12}>

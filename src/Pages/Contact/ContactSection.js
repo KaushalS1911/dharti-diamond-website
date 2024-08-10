@@ -53,8 +53,8 @@ function ContactSection() {
               <Box sx={{ padding: { lg: "0 0", md: "0 0", sm: "12px 0", xs: "12px 0" } }}>
                 <input type="text" placeholder='Company Name' style={{ padding: "13px 122px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
               </Box>
-              <Box>
-                <input type="text" placeholder='Mobile' style={{ padding: "13px 122px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
+              <Box sx={{marginBottom:{md:"unset",xs:2}}}>
+                <input type="text" placeholder='Mobile' style={{ padding: "13px 122px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none",marginBottom: 0 }} />
               </Box>
             </Box>
 

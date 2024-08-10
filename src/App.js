@@ -11,10 +11,12 @@ import HeroSection from './Components/global/HeroSection';
 import Home from './Components/Home';
 import Product from "./Components/Product";
 import Concierge from "./Components/Concierge";
+import Footer from "./Components/global/Footer";
 
 function App() {
     return (
-        <div>
+        <div>        <Header/>
+
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
@@ -28,6 +30,7 @@ function App() {
 
 
             </Routes>
+            <Footer/>
             {/*<div className="App">*/}
             {/*    <Header/>*/}
             {/*    <HeroSection/>*/}

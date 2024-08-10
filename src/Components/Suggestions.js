@@ -7,10 +7,8 @@ import Footer from "./global/Footer";
 function Suggestions() {
   return (
     <div>
-        <Header/>
         <HeroSection/>
         <SuggestionsSection/>
-        <Footer/>
     </div>
   )
 }

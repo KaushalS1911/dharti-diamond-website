@@ -9,12 +9,11 @@ import Footer from "./global/Footer";
 function Product() {
   return (
     <div>
-        <Header/>
+
         <HeroSection/>
       <ProductSection/>
       <ProductSection2/>
       <ProductSection3/>
-      <Footer/>
     </div>
   )
 }

@@ -8,10 +8,8 @@ import Footer from "./global/Footer";
 function Diamond() {
   return (
     <div>
-        <Header/>
         <HeroSection/>
      <DiamondSection/>
-     <Footer/>
     </div>
   )
 }

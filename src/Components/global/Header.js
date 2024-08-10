@@ -9,7 +9,7 @@ import { Box, Container, Typography, Drawer, IconButton, List, ListItem, ListIte
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';  // Import CloseIcon
 import logo from '../../assets/images/Home/logo.png';
-import {useNavigate} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 
 function Header() {
@@ -80,10 +80,12 @@ function Header() {
             </IconButton>
           </Box>
           <List>
-            {['Home', 'About', 'Diamond', 'Product', 'Contact Us'].map((text, index) => (
-              <ListItem button key={text}>
-                <ListItemText primary={text} />
-              </ListItem>
+            {[{label:'Home',to:"/"}, {label:'About',to:"/about"}, {label:'Diamond',to:"/diamond"}, {label:'Product',to:"/product"}, {label:'Contact Us',to:"/contact"}].map((text, index) => (
+             <NavLink to={text.to} style={{color:"unset",textDecoration:"unset"}}>
+               <ListItem button key={text.label}>
+                 <ListItemText primary={text.label} />
+               </ListItem>
+             </NavLink>
             ))}
             <ListItem button>
               <ListItemText primary="Book Appointment" />

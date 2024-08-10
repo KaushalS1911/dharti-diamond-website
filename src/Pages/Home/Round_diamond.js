@@ -6,7 +6,7 @@ import Round_diam from '../../assets/images/Home/RoundDiamond.png';
 function Round_diamond() {
   return (
     <div>
-      <Box sx={{ backgroundColor: "#2F9F9F9" ,marginTop:"100px",marginBottom:"220px"}}>
+      <Box sx={{ backgroundColor: "#2F9F9F9" ,marginTop:"100px",marginBottom: {md:"220px",xs:"100px"}}}>
         <Container maxWidth="xl">
           <Box sx={{position: "relative", display: "flex", justifyContent: "center", flexDirection: { xs: "column", md: "row" }, alignItems: "center" }}>
             <Box sx={{ width: { xs: "100%", md: "60%" ,lg:"50%"}, mb: { xs: 2, md: 0 } }}>

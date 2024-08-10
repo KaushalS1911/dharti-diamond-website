@@ -7,10 +7,8 @@ import Footer from "./global/Footer";
 function Contact() {
   return (
     <div>
-        <Header/>
         <HeroSection/>
         <ContactSection />
-        <Footer/>
     </div>
   )
 }
